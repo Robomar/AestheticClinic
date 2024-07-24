@@ -1,0 +1,62 @@
+/* styles.css */
+
+.coursereg{
+ color: white;
+ font-size: 2em;
+
+}
+
+form {
+    margin-bottom: 5px;
+    width: 94%;
+    padding-top: 5px;
+    padding-bottom: 30px;
+    
+    padding-left: 80px;
+    background-color:  rgb(153, 2, 2);
+    text-align: left;
+    border: none;
+  }
+  
+  form > div {
+    margin-bottom: 15px;
+  }
+  
+  form label {
+    color: white;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  form input[type="text"],
+  form input[type="email"],
+  form select,
+  form textarea {
+    width: 40%;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+  }
+  
+  form .name-fields {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  form .name-fields input {
+    width: 48%;
+  }
+  
+  form button {
+    padding: 10px 20px;
+    background-color: #ffd700;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  

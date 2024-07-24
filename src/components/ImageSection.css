@@ -1,0 +1,32 @@
+.image-section {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+  .image-section .content {
+    position: relative;
+  }
+  
+  .image-section img {
+    width: 100%;
+    height: auto;
+  }
+  
+  @media (max-width: 768px) {
+    .image-section {
+      padding: 20px;
+    }
+  }
+  .image-section p{
+
+    font-family: cursive, 'Lucida Handwriting', sans-serif;
+    color: black;
+    font-size: 60px;
+    position: absolute;
+    top: 20%;
+    left: 0%; 
+    width: 700px;
+    transform: translate(-50%, -50%);
+  }
+  

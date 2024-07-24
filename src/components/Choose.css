@@ -1,0 +1,56 @@
+.responsive-container {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(153, 2, 2);
+  }
+  
+  .why-choose-us {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .why-choose-us h1 {
+    font-size: 2em;
+    color: white;
+  }
+  
+  .boxes-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .box {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ffd700;
+    background-color: white;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    width: 30%; /* Adjust width as needed */
+    text-align: center;
+  }
+  .box img{
+    width: 300px;
+    height: 150px;
+  }
+  p {
+    font-size: 1em;
+    line-height: 1.5;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .boxes-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .box {
+      width: 80%;
+    }
+  }
+  

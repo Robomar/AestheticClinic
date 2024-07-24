@@ -1,0 +1,53 @@
+/* ServicesSection.css */
+
+.services-section {
+    padding: 20px;
+    margin-top: 50px;
+    padding-left: 170px;
+    padding-right: 170px;
+    margin-bottom: 50px;
+    text-align: left;
+
+  }
+  
+  .services-section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .services-section p {
+    font-size: 1em;
+    margin-bottom: 20px;
+  }
+  
+  .services-section ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .services-section li {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .appointment-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-top: 3%;
+    color: white;
+    margin-left: 40%;
+    background-color: rgb(155, 4, 4);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .appointment-button:hover {
+    background-color: rgb(241, 206, 7);
+    color: black;
+  }
+  
